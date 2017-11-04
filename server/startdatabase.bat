@@ -1,0 +1,1 @@
+mongod --auth --dbpath=database

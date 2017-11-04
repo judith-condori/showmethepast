@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_my_account"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="@string/label_menu_my_account" />
+        <item
+            android:id="@+id/nav_menu_edit_users"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/label_menu_edit_users" />
+        <item
+            android:id="@+id/nav_menu_map"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/label_menu_map" />
+        <item
+            android:id="@+id/na_menu_places"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/label_menu_places" />
+        <item
+            android:id="@+id/nav_menu_sensors"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/label_menu_sensors" />
+        <item
+            android:id="@+id/nav_menu_synchronization"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="@string/label_menu_synchronization" />
+        <item
+            android:id="@+id/nav_menu_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/label_menu_settings" />
+        <item
+            android:id="@+id/nav_menu_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/label_menu_about" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+</menu>

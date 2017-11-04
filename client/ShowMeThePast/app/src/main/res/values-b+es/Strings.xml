@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShowMeThePast</string>
+    <string name="title_activity_main_menu">Show me the past!</string>
+
+    <!-- Fragment Titles -->
+    <string name="title_fragment_main_map">Mapa Principal</string>
+    <string name="title_fragment_sensors">Sensores</string>
+    <string name="title_fragment_touristic_places">Lugares turisticos</string>
+    <string name="title_fragment_touristic_places_creation">Nuevo lugar turistico</string>
+    <string name="title_fragment_touristic_places_edition">Editando lugar turistico</string>
+    <string name="title_fragment_touristic_places_view">Ver lugar turistico</string>
+    <string name="title_fragment_calibrate_instructions">Calibrando Sensores</string>
+    <string name="title_fragment_settings">Configuraciones</string>
+    <string name="title_fragment_user_management">Manejo de usuario</string>
+    <string name="title_fragment_map_marker_position">Elige una posicion</string>
+    <string name="title_fragment_map_marker_position_view">Posicion</string>
+    <string name="title_fragment_synchronization">Sincronizacion</string>
+    <string name="title_fragment_old_picture">Fotos Antiguas</string>
+    <string name="title_fragment_old_picture_creation">Nueva foto antigua</string>
+    <string name="title_fragment_old_picture_edition">Edicion foto antigua</string>
+    <string name="title_fragment_old_picture_view">Ver foto antigua</string>
+    <string name="title_fragment_old_pictures_map">Mapa fotos antiguas</string>
+    <string name="title_fragment_about">Acerca De...</string>
+    <string name="title_information">Informacion</string>
+    <string name="title_information_list_options">Modificar lista de informaciones</string>
+    <string name="title_edit_users">Editar Usuarios</string>
+
+    <!-- Sync Status -->
+    <string name="label_sync_getting_information">Obteniendo Informacion</string>
+    <string name="label_sync_processing_information">Procesando Informacion</string>
+    <string name="label_sync_downloading_documents">Descargando Documentos</string>
+    <string name="label_sync_removing_documents">Eliminado Documentos</string>
+    <string name="label_sync_completed">Completado</string>
+
+    <string name="template_last_sync_date">Ultima Sincronizacion: %s</string>
+    <string name="format_datetime">dd/MM/yyyy HH:mm:ss.SSS</string>
+
+    <!-- Tab Titles -->
+    <string name="tab_title_map">Mapa</string>
+    <string name="tab_title_list">Lista</string>
+
+    <string name="title_dialog_pick_marker">Por favor escoja un marcador</string>
+
+    <string name="title_notification_you_are_close_to">Estas cerca de:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Action labels -->
+    <string name="label_action_settings">Configuraciones</string>
+    <string name="label_action_login">Iniciar Sesion</string>
+
+    <string name="label_role_client">Cliente</string>
+    <string name="label_role_editor">Editor</string>
+    <string name="label_role_admin">Administrador</string>
+
+    <string name="label_smtp_server">Show me the past!, servidor.</string>
+
+    <!-- Menu -->
+    <string name="label_menu_map">Mapa</string>
+    <string name="label_menu_places">Lugares Turisticos</string>
+    <string name="label_menu_sensors">Sensores</string>
+    <string name="label_menu_settings">Configuracion</string>
+    <string name="label_menu_synchronization">Syncronizacion</string>
+    <string name="label_menu_privacy_policies">Politica Privacidad</string>
+    <string name="label_menu_about">Acerca de</string>
+    <string name="label_menu_my_account">Mi Cuenta</string>
+    <string name="label_menu_edit_users">Editar Usuarios</string>
+
+    <!-- General labels -->
+    <string name="label_spanish">Español</string>
+    <string name="label_english">Ingles</string>
+    <string name="label_no_logged_user_name">No inicio sesion</string>
+    <string name="label_no_logged_user_email">Sin email</string>
+    <string name="label_sign_out">Cerrar sesion</string>
+    <string name="label_sign_in">Iniciar sesion</string>
+    <string name="label_disconnect">Desconectar</string>
+    <string name="label_signed_out">Sesion cerrada</string>
+    <string name="label_signed_in">Sesion iniciada</string>
+    <string name="label_pick_position">Elegir</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_marker">Marcador</string>
+    <string name="label_save">Guardar</string>
+    <string name="label_old_pictures">Fotos Antiguas</string>
+    <string name="label_add_old_picture">Nueva Foto Antigua</string>
+    <string name="label_start">Iniciar</string>
+    <string name="label_position_start">Posicion Inicial</string>
+    <string name="label_position_target">Posicion Objectivo</string>
+    <string name="label_position_ar">Posicion R.A.</string>
+    <string name="label_open_selected">Abrir Seleccionado</string>
+    <string name="label_new_touristic_place">Nuevo lugar turistico</string>
+    <string name="label_marker_start_position">Posicion Inicial</string>
+    <string name="label_marker_target_position">Posicion Objetivo</string>
+    <string name="label_notification_open_in_map">Abrir en el mapa</string>
+    <string name="label_notification_open_information">Abrir informacion</string>
+
+
+    <!-- Instruction Labels -->
+    <string name="label_put_a_name">Escribe un nombre</string>
+    <string name="label_put_a_description">Escribe una description</string>
+
+    <!-- CRUD labels -->
+    <string name="label_button_create">Nuevo</string>
+    <string name="label_button_update">Editar</string>
+    <string name="label_button_delete">Eliminar</string>
+
+    <string name="label_edit_touristic_place_title">Editar Titulo</string>
+    <string name="label_edit_touristic_place_description">Editar Descripcion</string>
+    <string name="label_edit_touristic_place_information">Editar Informacion</string>
+
+    <!-- Dialog labels -->
+    <string name="label_alert_dialog_ok">Ok</string>
+    <string name="label_alert_dialog_cancel">Cancelar</string>
+
+    <!-- Sensor Status -->
+    <string name="label_accelerometer_status">Estado accelerometro:</string>
+    <string name="label_magnetometer_status">Estado magnetometro:</string>
+    <string name="label_gyroscope_status">Estado giroscopio:</string>
+
+    <!-- Settings Labels -->
+    <string name="label_settings_server_address">Direccion Servidor:</string>
+    <string name="label_settings_use_gyroscope">Usar giroscopio:</string>
+    <string name="label_settings_last_sync_date">Ultima Sincronizacion:</string>
+    <string name="label_settings_alerts_by_position">Habilitar Alertas:</string>
+    <string name="label_settings_alerts_minimum_radius">Minima Distancia:</string>
+
+    <!-- General Words -->
+    <string name="label_unknown">Desconocido</string>
+    <string name="label_low">Bajo</string>
+    <string name="label_medium">Medio</string>
+    <string name="label_high">Alto</string>
+    <string name="label_unreilable">No real</string>
+    <string name="label_calibrate">Calibrar</string>
+    <string name="label_finish">Finalizar</string>
+    <string name="label_accuracy">Presicion</string>
+    <string name="label_deletions">Eliminaciones</string>
+    <string name="label_modifications">Modificaciones</string>
+    <string name="label_ok">Entendido!</string>
+    <string name="label_instructions">Instrucciones</string>
+    <string name="label_confirmation">Confirmacion</string>
+    <string name="label_never">Nunca</string>
+
+    <!-- Collections -->
+    <string name="label_collection_users">Usuarios</string>
+    <string name="label_collection_images">Imagenes</string>
+    <string name="label_collection_touristic_locations">Lugares Turisticos</string>
+    <string name="label_collection_old_pictures">Imagenes Antiguas</string>
+
+    <!-- Scalar Values -->
+    <string name="label_x_value">x:</string>
+    <string name="label_y_value">y:</string>
+    <string name="label_z_value">z:</string>
+
+    <!-- Questions -->
+    <string name="question_for_delete">"¿Estas seguro de eliminar este registro?</string>
+    <string name="question_for_application_in_background">¿Quieres minimizar la aplicacion?</string>
+
+    <!-- Messages -->
+    <string name="request_permission">Se necesita permisos sobre la camara.</string>
+    <string name="message_calibration_instructions">Haga una figura de 8 hasta que la brujula este calibrada. Deberias de ser necesario solo unas cuantas veces.</string>
+    <string name="message_instructions_zoom">Has zoom de la imagen hasta que este casi del mismo tamaño que la imagen real, despues toca el boton verde.</string>
+    <string name="message_instructions_calibrate">Centra la imagen antigua con la imagen real en el fondo, despues toca el boton verde.</string>
+    <string name="message_wait_for_sync">Por favor espera a que la sincronizacion termine.</string>
+    <string name="message_login_required">Por favor inicia sesion con tu cuenta.</string>
+
+    <!-- Error messages -->
+    <string name="error_message_server_error">Error comunicandose con el servidor.</string>
+    <string name="error_message_google_login_error">Error al tratar de comunicarse con el servicio de login de google.</string>
+    <string name="error_message_google_maps_geocoder">Error al tratar de obtener la region de google maps, por favor escoja la posicion nuevamente.</string>
+
+    <string name="message_application_about">
+        <![CDATA[
+            Show me the past!
+            Es el Proyecto final de la estudiante Judith Condori
+            Para la obtener el grado de Lic. en Ingenieria de Sistemas
+            En la universidad Autonoma Tomas Frias
+            En POTOSI-BOLIVIA
+        ]]>
+    </string>
+
+    <string name="configuration_privacy_policies_url">https://github.com/Historic-Applications/showmethepast/blob/master/privacy_policies.es.md</string>
+</resources>

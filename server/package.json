@@ -1,0 +1,25 @@
+{
+  "name": "show-me-the-past-server",
+  "version": "1.0.0",
+  "description": "the server for show  me the past proyect",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Judith Condori Puma",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "check-types": "^7.1.5",
+    "express": "^4.15.2",
+    "google-auth-library": "^0.10.0",
+    "http-status-codes": "^1.1.6",
+    "logger": "0.0.1",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.28",
+    "mongoose": "^4.10.5",
+    "uid-generator": "^0.1.1",
+    "underscore": "^1.8.3"
+  }
+}

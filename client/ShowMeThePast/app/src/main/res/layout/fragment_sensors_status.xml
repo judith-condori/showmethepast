@@ -1,0 +1,186 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tesis.yudith.showmethepast.view.SensorsStatusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.gStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.mStatus"
+        app:layout_constraintTop_toTopOf="@+id/txt.sensorStatus.gStatus.label" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.mStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.aStatus"
+        app:layout_constraintTop_toTopOf="@+id/txt.sensorStatus.mStatus.label" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.gStatus.label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="@string/label_gyroscope_status"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.mStatus.label"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.mStatus.label" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.gx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.gStatus.label"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.gStatus.label"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.gy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.gx"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.gx" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.gz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.gy"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.gy" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.mz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.my"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.my" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.mx"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.mx" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.mx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.mStatus.label"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.mStatus.label"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.mStatus.label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:text="@string/label_magnetometer_status"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.aStatus.label"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.aStatus.label" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.az"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.ay"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.ay" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.ay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.ax"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.ax" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.aStatus.label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/label_accelerometer_status"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.ax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt.sensorStatus.aStatus.label"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt.sensorStatus.aStatus.label"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btn.sensorStatus.testCamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Test Camera"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/txt.sensorStatus.aStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintLeft_toRightOf="@+id/txt.sensorStatus.aStatus.label"
+        android:layout_marginLeft="52dp"
+        app:layout_constraintTop_toTopOf="@+id/txt.sensorStatus.aStatus.label"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/btn.sensorStatus.calibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/label_calibrate"
+        app:layout_constraintBottom_toTopOf="@+id/btn.sensorStatus.testCamera"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

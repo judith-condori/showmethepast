@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSensors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tesis.yudith.showmethepast.MainActivity">
+
+    <TextView
+        android:id="@+id/textAngleUW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:text="UW Angle:?"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAngleYZ"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textAngleWV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="65dp"
+        android:text="VW Angle:?"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAngleYZ"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/txtValueX"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="46dp"
+        android:text="X:?"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toLeftOf="@+id/txtValueY"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/txtValueY"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:text="Y:?"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtValueX"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/txtValueZ"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:text="Z:?"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtValueY"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/txtValueY"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/txtAngleXY"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="41dp"
+        android:text="XY:?"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/txtValueX"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginLeft="59dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txtValueX" />
+
+    <TextView
+        android:id="@+id/txtAngleYZ"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:text="XZ:?"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtAngleXY"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/txtAngleXZ"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="XZ:?"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/txtAngleYZ"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/txtValueZ" />
+
+    <TextView
+        android:id="@+id/txtAngleUV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="29dp"
+        android:text="UV Angle:?"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAngleYZ"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/btnMode3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@+id/btnMode2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/btnMode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnMode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnetometer"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@+id/btnMode1"
+        app:layout_constraintRight_toLeftOf="@+id/btnMode3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/btnMode1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">ShowMeThePast</string>
+    <string name="title_activity_main_menu">Show me the past!</string>
+
+    <!-- Fragment Titles -->
+    <string name="title_fragment_main_map">Main Map</string>
+    <string name="title_fragment_sensors">Sensors</string>
+    <string name="title_fragment_touristic_places">Touristic Places</string>
+    <string name="title_fragment_touristic_places_creation">New touristic place</string>
+    <string name="title_fragment_touristic_places_edition">Edit touristic place</string>
+    <string name="title_fragment_touristic_places_view">View touristic place</string>
+    <string name="title_fragment_calibrate_instructions">Calibrate Instructions</string>
+    <string name="title_fragment_settings">Settings</string>
+    <string name="title_fragment_user_management">User management</string>
+    <string name="title_fragment_map_marker_position">Pick a position</string>
+    <string name="title_fragment_map_marker_position_view">Position</string>
+    <string name="title_fragment_synchronization">Synchronization</string>
+    <string name="title_fragment_old_picture">Old Pictures</string>
+    <string name="title_fragment_old_picture_creation">New old Picture</string>
+    <string name="title_fragment_old_picture_edition">Edit old Picture</string>
+    <string name="title_fragment_old_picture_view">View Old picture</string>
+    <string name="title_fragment_old_pictures_map">Old Pictures</string>
+    <string name="title_fragment_about">About information</string>
+    <string name="title_information">Information</string>
+    <string name="title_information_list_options">Modify information list</string>
+    <string name="title_edit_users">Edit Users</string>
+
+    <!-- Sync Status -->
+    <string name="label_sync_getting_information">Getting information</string>
+    <string name="label_sync_processing_information">Processing information</string>
+    <string name="label_sync_downloading_documents">Downloading Documents</string>
+    <string name="label_sync_removing_documents">Removing documents</string>
+    <string name="label_sync_completed">Completed</string>
+
+    <string name="template_last_sync_date">Last sync date: %s</string>
+    <string name="format_datetime">MM/dd/yyyy HH:mm:ss.SSS</string>
+
+    <!-- Tab Titles -->
+    <string name="tab_title_map">Map</string>
+    <string name="tab_title_list">List</string>
+
+    <string name="title_dialog_pick_marker">Please pick a marker</string>
+
+    <string name="title_notification_you_are_close_to">You are close to:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Action labels -->
+    <string name="label_action_settings">Settings</string>
+    <string name="label_action_login">Login</string>
+
+    <!-- Menu -->
+    <string name="label_menu_map">Maps</string>
+    <string name="label_menu_places">Places</string>
+    <string name="label_menu_sensors">Sensors</string>
+    <string name="label_menu_settings">Settings</string>
+    <string name="label_menu_synchronization">Synchronization</string>
+    <string name="label_menu_privacy_policies">Privacy Policies</string>
+    <string name="label_menu_about">About</string>
+
+    <string name="label_menu_my_account">My Account</string>
+    <string name="label_menu_edit_users">Edit Users</string>
+
+    <string name="label_role_client">Client</string>
+    <string name="label_role_editor">Editor</string>
+    <string name="label_role_admin">Administrator</string>
+
+    <string name="label_smtp_server">Show me the past!, server</string>
+
+    <!-- General labels -->
+    <string name="label_spanish">Spanish</string>
+    <string name="label_english">English</string>
+    <string name="label_no_logged_user_name">Not logged in</string>
+    <string name="label_no_logged_user_email">Not email to show</string>
+    <string name="label_sign_out">Sign out</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="label_disconnect">Disconnect</string>
+    <string name="label_signed_out">Signed out</string>
+    <string name="label_signed_in">Signed in</string>
+    <string name="label_pick_position">Pick position</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_marker">Marker</string>
+    <string name="label_save">Save</string>
+    <string name="label_old_pictures">Old Pictures</string>
+    <string name="label_add_old_picture">Add old picture</string>
+    <string name="label_start">Start</string>
+    <string name="label_position_start">Start position</string>
+    <string name="label_position_target">Target Position</string>
+    <string name="label_position_ar">AR Position</string>
+    <string name="label_open_selected">Open Selected</string>
+    <string name="label_new_touristic_place">New touristic place</string>
+    <string name="label_marker_start_position">Start Position</string>
+    <string name="label_marker_target_position">Target Position</string>
+    <string name="label_notification_open_in_map">Open in map</string>
+    <string name="label_notification_open_information">Open Information</string>
+
+    <!-- Instruction Labels -->
+    <string name="label_put_a_name">Put a name</string>
+    <string name="label_put_a_description">Put a description</string>
+
+    <!-- CRUD labels -->
+    <string name="label_button_create">New</string>
+    <string name="label_button_update">Update</string>
+    <string name="label_button_delete">Delete</string>
+
+    <!-- Dialog labels -->
+    <string name="label_alert_dialog_ok">Ok</string>
+    <string name="label_alert_dialog_cancel">Cancel</string>
+
+    <string name="label_edit_touristic_place_title">Edit title</string>
+    <string name="label_edit_touristic_place_description">Edit description</string>
+    <string name="label_edit_touristic_place_information">Edit Information</string>
+
+    <!-- Sensor Status -->
+    <string name="label_accelerometer_status">Accelerometer Status:</string>
+    <string name="label_magnetometer_status">Magnetometer Status:</string>
+    <string name="label_gyroscope_status">Gyroscope Status:</string>
+
+    <!-- Settings Labels -->
+    <string name="label_settings_server_address">Server Address:</string>
+    <string name="label_settings_use_gyroscope">Use Gyroscope:</string>
+    <string name="label_settings_last_sync_date">Last Sync:</string>
+    <string name="label_settings_alerts_by_position">Enable Alerts:</string>
+    <string name="label_settings_alerts_minimum_radius">Minimum Distance:</string>
+
+    <!-- General Words -->
+    <string name="label_unknown">Unknown</string>
+    <string name="label_low">Low</string>
+    <string name="label_medium">Medium</string>
+    <string name="label_high">High</string>
+    <string name="label_unreilable">Unreilable</string>
+    <string name="label_calibrate">Calibrate</string>
+    <string name="label_finish">Finish</string>
+    <string name="label_accuracy">Accuracy</string>
+    <string name="label_deletions">Deletions</string>
+    <string name="label_modifications">Modifications</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_instructions">Instructions</string>
+    <string name="label_confirmation">Confirmation</string>
+    <string name="label_never">Never</string>
+
+    <!-- Collections -->
+    <string name="label_collection_users">Users</string>
+    <string name="label_collection_images">Images</string>
+    <string name="label_collection_touristic_locations">Touristic Locations</string>
+    <string name="label_collection_old_pictures">Old Pictures</string>
+
+    <!-- Scalar Values -->
+    <string name="label_x_value">x:</string>
+    <string name="label_y_value">y:</string>
+    <string name="label_z_value">z:</string>
+
+    <!-- Errors -->
+    <string name="error_camera">Error opening the camera.</string>
+
+    <!-- Messages -->
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="message_calibration_instructions">Make a figure 8 until your compass is calibrated. You should only have to do this a few times.</string>
+    <string name="message_instructions_zoom">Zoom the image first until is approximately at the same size that the real image, after that touch the green button.</string>
+    <string name="message_instructions_calibrate">Center the old picture with the real image in the background, after that touch the green button.</string>
+    <string name="message_wait_for_sync">Please wait until the synchronization is finished.</string>
+    <string name="message_login_required">Please login to your account.</string>
+
+    <!-- Error messages -->
+    <string name="error_message_server_error">Error with the request to the server.</string>
+    <string name="error_message_google_login_error">Error with the request to google login service.</string>
+    <string name="error_message_google_maps_geocoder">Error trying to get the region for the gps position, please select the position again.</string>
+
+    <!-- Questions -->
+    <string name="question_for_delete">Do you really want to delete?</string>
+    <string name="question_for_application_in_background">Do you want to minimize the application?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="message_application_about">
+        <![CDATA[
+            Show me the past!\n
+            An augmented reality application to show old pictures for the touristic places of the Potosi city\n
+            As the final project for the student Judith Condori\n
+            To obtain the Systems Engineer degree title\n
+            In the "Universidad Autónoma Tomas Frías" University\n
+            POTOSI-BOLIVIA
+        ]]>
+    </string>
+
+    <string name="configuration_privacy_policies_url">https://github.com/Historic-Applications/showmethepast/blob/master/privacy_policies.md</string>
+
+</resources>
+

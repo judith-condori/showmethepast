@@ -1,0 +1,10 @@
+In order to run the application you need the next files:
+	-	google-services.json copied to /app/google-services.json (generated from google console)
+	-	secrets.xml copied to /app/src/main/res/values/secrets.xml (with the content of sensitive keys) :	
+		<?xml version="1.0" encoding="utf-8"?>
+		<resources>
+			<string name="server_client_id"></string>
+			<string name="android_geo_api_key"></string>
+		</resources>
+		
+Algo change the configuration_server_address_default key in the file strings-configuration.xml

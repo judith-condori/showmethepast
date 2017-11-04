@@ -1,0 +1,35 @@
+stages:
+  - test
+  - build
+  - deploy
+
+testcases:
+  stage: test
+  tags:
+    - smtp-deployment
+  script:
+    - echo "Running test script"
+
+build_docker_image:
+  stage: build
+  tags:
+    - smtp-deployment
+  script:
+    - npm -v
+    - rm -f /home/server/repo/ci/deployment/server.tar
+    - rm -rf /home/server/repo
+    - mkdir /home/server/repo
+    - cd /home/server/repo
+    - git clone git@gitlab.com:condori/ShowMeThePast.git .
+    - git checkout ${CI_COMMIT_SHA}
+    - cd /home/server/repo/server
+    - npm install
+    - tar -cvf /home/server/repo/ci/deployment/server.tar -C /home/server/repo/server .
+    
+deploy_stage:
+  stage: deploy
+  tags:
+    - smtp-deployment
+  script:
+    - sh /home/server/repo/ci/rest-server/deploy.sh
+

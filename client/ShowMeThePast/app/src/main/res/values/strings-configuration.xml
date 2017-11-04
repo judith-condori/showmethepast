@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configuration_application_key">show-me-the-past.configuration</string>
+
+    <string name="configuration_server_address">configuration_server_address</string>
+    <string name="configuration_server_address_default">http://localhost:3000</string>
+
+    <string name="configuration_use_gyroscope">configuration_use_gyroscope</string>
+    <bool name="configuration_use_gyroscope_default">true</bool>
+
+    <string name="configuration_last_synchronization">configuration_last_synchronization</string>
+
+    <string name="configuration_alerts_by_position">alerts_by_position</string>
+    <bool name="configuration_alerts_by_position_default">false</bool>
+
+    <string name="configuration_alerts_minimum_radius">minimum_radius</string>
+    <integer name="configuration_alerts_minimum_radius_default">5</integer>
+</resources>
